@@ -4,7 +4,7 @@ Tetris game implemented in C++ by Jooho Lee
 
 ## Credits
 
-Javier López for providing a guide for this project [here](https://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
+Javier López for providing a guide for this project [here](https://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/).
 
 Imelior, who fixed English mistakes and compiled the tutorial under Linux.
 
