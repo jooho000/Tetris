@@ -10,4 +10,14 @@ Imelior, who fixed English mistakes and compiled the tutorial under Linux.
 
 Javier Santana, who added #ifndef sentences and pointed that was necessary to use libsdl-gfx1.2-dev and libsdl1.2-dev under Linux.
 
+## Control
+
+ESC: Quit game
+
+z: Rotate piece
+
+x: Drop piece
+
+Left, Right, Down: Move piece
+
 
