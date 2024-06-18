@@ -1,22 +1,14 @@
 # Tetris
 
-Tetris game implemented in C++ by Jooho Lee
+Tetris game implemented in Python by Jooho Lee
 
-## Credits
+## Controls
 
-Javier López for providing a guide for this project [here](https://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/).
+SPACE: Rotate piece
 
-Imelior, who fixed English mistakes and compiled the tutorial under Linux.
+q: Quit
 
-Javier Santana, who added #ifndef sentences and pointed that was necessary to use libsdl-gfx1.2-dev and libsdl1.2-dev under Linux.
-
-## Control
-
-ESC: Quit game
-
-z: Rotate piece
-
-x: Drop piece
+p: Pause
 
 Left, Right, Down: Move piece
 
