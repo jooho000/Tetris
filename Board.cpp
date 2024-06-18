@@ -1,5 +1,4 @@
 #include "Board.h"
-
 // Parameters------------------------------------------------
 
 // pX: Horizontal position in blocks
