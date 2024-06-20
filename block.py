@@ -14,16 +14,8 @@ class Block(object):
     def __init__(self,shape,x,y,screen,color,rotate_en):
         """
         Initialize the tetris block class
-
-        Parameters:
-            - shape - list of block data. The list contains [X,Y] coordinates of
-                      building blocks.
-            - x - X coordinate of first tetris shape block
-            - y - Y coordinate of first tetris shape block
-            - screen  - screen to draw on
-            - color - the color of each shape block in RGB notation
-            - rotate_en - enable or disable the rotation
         """
+
         # The initial shape (convert all to Rect objects)
         self.shape = []
         for sh in shape:
@@ -64,8 +56,7 @@ class Block(object):
 
         Returns the tuple with new (X,Y) coordinates.
         """
-        # Use the classic transformation matrix:
-        # https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm
+        
         rads = self.diff_rotation * (math.pi / 180.0)
         newx = x*math.cos(rads) - y*math.sin(rads)
         newy = y*math.cos(rads) + x*math.sin(rads)
